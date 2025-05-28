@@ -1,1 +1,1 @@
-console.log(process.env.PASSWORD);
+console.log("[INFO] Password is set.");
