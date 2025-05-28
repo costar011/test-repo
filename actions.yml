@@ -1,0 +1,16 @@
+name: "Testing Github Actions"
+
+on:
+    push:
+      branches:
+    - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+  permissions:
+    content: read
+
+  steps:
+  - name: Print Hello World
+    run: echo "Hello World"
